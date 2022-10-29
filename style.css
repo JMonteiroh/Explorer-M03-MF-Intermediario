@@ -82,6 +82,9 @@ main p {
   margin-bottom: 3.2rem;
 }
 
+.card img:nth-child(2) {
+  height: 45rem;
+}
 
 .card h2 {
   position: absolute;
@@ -97,4 +100,9 @@ main p {
   border-radius: 2rem;
   background-color: var(--bg-card);
   padding: 0 1.6rem;
+}
+
+.card:nth-child(3) img,
+.card:nth-child(5) img {
+  height: 45rem;
 }
