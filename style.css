@@ -20,7 +20,7 @@ body {
 
 .page {
   margin: 0 auto;
-  max-width: clanp(38.4rem, 30rem + 60vw ,117rem);
+  max-width: clamp(38.4rem, 60rem + 70vw ,144rem);
 }
 
 bory{
