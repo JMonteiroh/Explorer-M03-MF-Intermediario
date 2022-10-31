@@ -80,6 +80,7 @@ main p {
   object-fit: cover;
   border-radius: 2rem;
   margin-bottom: 3.2rem;
+  animation: downtop 500ms 450ms backwards;
 }
 
 .card img:nth-child(2) {
@@ -100,9 +101,35 @@ main p {
   border-radius: 2rem;
   background-color: var(--bg-card);
   padding: 0 1.6rem;
+
+  animation: topdown 500ms 900ms backwards;
 }
 
 .card:nth-child(3) img,
 .card:nth-child(5) img {
   height: 45rem;
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
