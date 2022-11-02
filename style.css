@@ -114,8 +114,8 @@ main p {
 
 .desktop,
 footer,
-.card:nth-child(6) img,
-.card:nth-child(7) img {
+.card:nth-child(6),
+.card:nth-child(7) {
   display: none;
 }
 
@@ -174,8 +174,8 @@ footer,
 
   .desktop,
   footer,
-  .card:nth-child(3) img,
-  .card:nth-child(5) img {
+  .card:nth-child(3),
+  .card:nth-child(5) {
     display: block;
   }
 
